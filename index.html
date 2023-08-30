@@ -8,26 +8,38 @@
 <body>
     <nav>
         <ul>
-            <li>About Me</li>
-            <li> My Work</li>
-            <li>Contact Me</li>
+            <li class="contact-item"><a href="#about-me">About Me</a></li>
+            <li class="contact-item"><a href="#work">My Work</a></li>
+            <li class="contact-item"><a href="#contact-info">Contact Me</a></li>
         </ul>
     </nav>
+    <section class="profile-pic">
+        <img src="assets/IMG_9386 copy.png" alt="Peytons Profile Picture">
+        <div class="stripe"></div>
+    </section>
     <section id="about-me">  
-        <img src="assets/IMG_3316.pdf" alt="Peytons Profile Picture">
+       <div id="me-paragraph">
+        <h2>About Me</h2>
+       </div>
+       <aside>
         <p>Hi, my name is Peyton. I am a full stack web design student, currently learning how to code with HTML, CSS, and JavaScript.</p>
+       </aside>
     </section>
     <section id="work">
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
+    <h2 id="my-work">My Work</h2>
+        <section id="projects">
+        <div class="project"><h3>Coming Soon</h3></div>
+        <div class="project"><h3>Coming Soon</h3></div>
+        <div class="project-large" id="horiseon"><h3> <a href="https://phechzzz.github.io/Horiseon-accessibility-project/#social-media-marketing">Horiseon Accesibility Project</a></h3></div>
+        <div class="project"><h3>Coming Soon</h3></div>
+        <div class="project"><h3>Coming Soon</h3></div>
+        </section>
     </section>
     <section id="contact-info">
-        <ul>
-            <li> <a href="mailto:peytonengborg@gmail.com">Email Me</a></li>
-            <li><a href="https://github.com/phechzzz">GitHub</a></li>
+        <h2 id="contact-header">Contact Me</h2>
+        <ul id="contact-list">
+            <li class="contact"> <a href="mailto:peytonengborg@gmail.com">Email Me</a></li>
+            <li class="contact"><a href="https://github.com/phechzzz">GitHub</a></li>
         </ul>
     </section>
 
