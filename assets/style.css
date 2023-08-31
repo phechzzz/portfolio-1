@@ -5,9 +5,6 @@
     --fourth-color: #bfbfbf;
 }
 
-@media screen and (min-width ){
-    
-}
 body{
     background-color: var(--secondary-color);
     color: var(--tertiary-color);
@@ -112,7 +109,7 @@ p{
 #horiseon{
     grid-column: auto / span 2;
     grid-row: auto;
-    background-image: url(/assets/horiseon-img.png);
+    background-image: url("./horiseon-img.png");
 }
 
 .project, .project-large{
@@ -136,7 +133,7 @@ p{
 }
 
 .project{
-    background-image: url(/assets/basic.background.png);
+    background-image: url("./basic.background.png");
 }
 
 h3{
