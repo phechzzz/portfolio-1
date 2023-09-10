@@ -112,7 +112,7 @@ p{
     background-image: url("./horiseon-img.png");
 }
 
-.project, .project-large{
+.project, .project-large, #passwordGenerator{
     border-style: solid;
     border-width: 7px;
     border-color: var(--fourth-color);
@@ -130,6 +130,10 @@ p{
     grid-template-columns: 50% 50%;
     width: 100%;
     height: 600px;
+}
+
+#passwordGenerator{
+    background-image: url(pexels-miguel-á-padriñán-3785932.jpg);
 }
 
 .project{
